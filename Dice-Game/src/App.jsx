@@ -1,8 +1,10 @@
 import GamePlay from "./components/GamePlay";
 import StartGame from "./components/StartGame";
+import styled from "styled-components";
+import React, { useState } from "react";
 
 function App() {
-  const [isGameStarted, setisGameStarted] = useState(false);
+  const [isGameStarted, setisGameStarted] = useState(true);
 
   const toggleGamePlay = () => {
     setisGameStarted((prev) => !prev);
