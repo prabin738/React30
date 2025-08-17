@@ -1,9 +1,15 @@
-import "./App.css";
+import GamePlay from "./components/GamePlay";
+import StartGame from "./components/StartGame";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [isGameStarted, setisGameStarted] = useState(false);
 
-  return <></>;
+  const toggleGamePlay = () => {
+    setisGameStarted((prev) => !prev);
+  };
+  return (
+    <>{isGameStarted ? <GamePlay /> : <StartGame toggle={toggleGamePlay} />}</>
+  );
 }
 
 export default App;
