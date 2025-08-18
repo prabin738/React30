@@ -4,7 +4,7 @@ import styled from "styled-components";
 import React, { useState } from "react";
 
 function App() {
-  const [isGameStarted, setisGameStarted] = useState(true);
+  const [isGameStarted, setisGameStarted] = useState();
 
   const toggleGamePlay = () => {
     setisGameStarted((prev) => !prev);

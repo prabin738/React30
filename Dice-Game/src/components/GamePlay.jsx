@@ -53,7 +53,9 @@ const GamePlay = () => {
       <RollDice currentDice={currentDice} rollDice={rollDice} />
       <div className="btns">
         <OutlineButton onClick={resetScore}>Reset Score</OutlineButton>
-        <Button>{showRules ? "Hide" : "Show"} Rules</Button>
+        <Button onClick={() => setShowRules((prev) => !prev)}>
+          {showRules ? "Hide" : "Show"} Rules
+        </Button>
       </div>
 
       {showRules && <Rules />}
