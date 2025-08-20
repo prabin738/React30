@@ -1,0 +1,42 @@
+export const data = [
+  {
+    question: "Which device is required for the Internet connection?",
+    option1: "Modem",
+    option2: "Router",
+    Option3: "LAN Cable",
+    option4: "Pen Drive",
+    ans: 1,
+  },
+  {
+    question: "Which continent has the highest number of countries?",
+    option1: "Asia",
+    option2: "Europe",
+    Option3: "North America",
+    option4: "Africa",
+    ans: 4,
+  },
+  {
+    question: "Which planet in the Milky Way is the hottest?",
+    option1: "Mars",
+    option2: "Jupiter",
+    option3: "Venus",
+    option4: "Mercury",
+    ans: 3,
+  },
+  {
+    question: "Which is the only body part that is fully grown from birth?",
+    option1: "Ear",
+    option2: "Eyes",
+    option3: "Nose",
+    option4: "Hand",
+    ans: 2,
+  },
+  {
+    question: "Which continent has the highest number of countries?",
+    option1: "Asia",
+    Option2: "Europe",
+    option3: "North America",
+    option4: "Africa",
+    ans: 4,
+  },
+];
