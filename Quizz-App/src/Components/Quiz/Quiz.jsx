@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Quiz.css";
+import { data } from "../../assets/data";
 
 const Quiz = () => {
+  //create state variable
+  let [index, setIndex] = useState(0);
+
+  let [question, setQuesion] = useState(data[index]);
+
   return (
     <div className="container">
       <h1>Quiz App</h1>
